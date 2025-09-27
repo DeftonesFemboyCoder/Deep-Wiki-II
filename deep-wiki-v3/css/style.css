@@ -1,0 +1,70 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+.top-bar {
+  background: linear-gradient(#666, #444);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.window-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.window-controls .btn {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.minimize { background: #f0c000; }
+.maximize { background: #0f0; }
+.close { background: #f00; }
+
+.address-bar {
+  background: #ddd;
+  padding: 6px;
+}
+
+.address-bar input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #aaa;
+  font-size: 14px;
+  background: #f7f7f7;
+}
+
+.content {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin: 5px 0;
+}
+
+.link-list a {
+  color: #00f;
+  text-decoration: underline;
+  cursor: pointer;
+}
